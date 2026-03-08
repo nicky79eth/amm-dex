@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+interface IPair {
+    function swap(uint amountIn) external returns (uint);
+}
+
+contract Router {
+
+    function swap(address pair, uint amountIn) public returns (uint) {
+        return IPair(pair).swap(amountIn);
+    }
+
+}
