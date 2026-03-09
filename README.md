@@ -23,28 +23,6 @@ x = reserve of token A
 y = reserve of token B  
 k = constant value
 
-## Project Structure
-
-amm-dex/
-│
-├── contracts
-│   ├── Factory.sol
-│   ├── Pair.sol
-│   └── Router.sol
-│
-├── scripts
-│   └── deploy.js
-│
-├── test
-│   └── swap.test.js
-│
-├── docs
-│   ├── deployment.md
-│   └── testing.md
-│
-├── hardhat.config.js
-├── package.json
-└── README.md
 
 ## Smart Contracts
 
@@ -61,7 +39,7 @@ Provides a simplified interface for interacting with pools.
 
 Clone the repository:
 
-git clone https://github.com/your-username/amm-dex.git
+git clone https://github.com/nicky79eth/amm-dex.git
 
 Install dependencies:
 
